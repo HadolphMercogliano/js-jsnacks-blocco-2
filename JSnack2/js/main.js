@@ -8,7 +8,8 @@ let evenNumbers ="I numeri pari sono: ";
 console.log(evenNumbers);
 console.log(oddNumbers);
 
-for(i=0; i<numbersList.length; i++) {
+for(let i=0; i<numbersList.length; i++) {
+  
   if (numbersList[i] % 2 == 0) {
     evenNumbers += numbersList[i]+", ";
   } else {
